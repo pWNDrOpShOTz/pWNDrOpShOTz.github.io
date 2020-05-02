@@ -2,28 +2,28 @@
 
 #wrapper{
 height: 800px;
-width: 1000px;
+width: 100%;
 background-color: pink;
 
 margin-left: auto;
 margin-right: auto;
 }
-header{
-  height: 140px;
-  width: 1000px;
-  background-color: green;
+
+body {
+  background-color: #eee
 }
+
 nav{
-  height: 60px;
-  width: 1000px;
-  background-color: brown;
+  height: 100px;
+  width: 100%;
+  background-color: #fff;
 }
 #center{
     display:flex;
 }
 main{
   height: 400px;
-  width: 800px;
+  width: 100%;
   background-color: red;
 }
 aside{
@@ -34,37 +34,31 @@ aside{
 
 footer{
   height: 200px;
-  width: 1000px;
-  background-color: green;
+  width: 100%;
+  background-color: blue;
 
 }
 
+*{
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+
+}
+
+ul li {
+  list-style: none;
+  display: inline-block;
+  float: left;
+}
+
+ul li a {
+text-decoration: none;
+font-size: 14px;
+font-family: arial;
+color: #1e1e1e;
+}
 
 /*_______________ Formatering av länkar ______________________*/
-
-a{
-
-
-  color: black;
-  font-family: monospace;
-  font-size: 40px
-
-
-}
-
-
-a:link {
-  text-decoration: none;
-}
-
-a:visited {
-  text-decoration: none;
-}
-
-a:hover {
-  text-decoration: underline;
-}
-
-a:active {
-  text-decoration: underline;
-}
