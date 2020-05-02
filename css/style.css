@@ -8,15 +8,15 @@ background-color: pink;
 margin-left: auto;
 margin-right: auto;
 }
-
-body {
-  background-color: #eee
-}
-
-nav{
-  height: 100px;
+header{
+  height: 140px;
   width: 100%;
-  background-color: #fff;
+  background-color: green;
+}
+nav{
+  height: 60px;
+  width: 100%;
+  background-color: brown;
 }
 #center{
     display:flex;
@@ -39,26 +39,36 @@ footer{
 
 }
 
-*{
-  margin: 0;
-  padding: 0;
-}
-
-ul {
-
-}
-
-ul li {
-  list-style: none;
-  display: inline-block;
-  float: left;
-}
-
-ul li a {
-text-decoration: none;
-font-size: 14px;
-font-family: arial;
-color: #1e1e1e;
-}
 
 /*_______________ Formatering av länkar ______________________*/
+
+a{
+
+
+  color: black;
+  font-family: monospace;
+  font-size: 30px
+
+
+}
+
+
+a:link {
+  text-decoration: none;
+  color: yellow;
+}
+
+a:visited {
+  text-decoration: none;
+  color: lightgray;
+}
+
+a:hover {
+  text-decoration: none;
+  color: blue;
+}
+
+a:active {
+  text-decoration: none;
+  color: blue;
+}
