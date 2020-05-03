@@ -10,23 +10,34 @@ margin-right: auto;
 }
 header{
   height: 80px;
-  width: 100%;
+  width: 99,9%;
   background-color: cornflowerblue;
   font-size: 60px;
   font-family: fantasy;
   color: whitesmoke;
   line-height: 80px;
   text-align: center;
+  border-top: inset;
+  border-top-color: black;
+  border-left: inset;
+  border-right: inset;
+  border-left-color: black;
+  border-right-color: black;
+
 
 }
 nav{
   height: 40px;
-  width: 100%;
+  width: 99,9%;
   background-color: steelblue;
   border-top: inset;
   border-bottom: inset;
   border-top-color: black;
   border-bottom-color: black;
+  border-left: inset;
+  border-right: inset;
+  border-left-color: black;
+  border-right-color: black;
 }
 #center{
     display:flex;
@@ -36,7 +47,7 @@ main{
   width: 100%;
   background-color: whitesmoke;
   font-family: monospace;
-  text-align:
+  text-align:left;
 }
 aside{
   height: 400px;
