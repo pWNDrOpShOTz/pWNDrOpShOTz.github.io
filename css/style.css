@@ -38,7 +38,9 @@ nav{
   border-right: inset;
   border-left-color: black;
   border-right-color: black;
+  display: flex;
 }
+
 #center{
     display:flex;
 }
@@ -78,36 +80,69 @@ footer{
 
 /*_______________ Formatering av länkar ______________________*/
 
-a{
+nav a{
 
   font-family: monospace;
   font-size: 20px;
-  float: left;
+  display: flex;
   line-height: 40px;
   padding: 0 38px;
 
+
 }
 
 
 
-a:link {
+nav a:link {
   text-decoration: none;
   color: whitesmoke;
 }
 
-a:visited {
+nav a:visited {
   text-decoration: none;
   color: whitesmoke;
 }
 
-a:hover {
+nav a:hover {
   text-decoration: none;
   color: whitesmoke;
   transform: scale(1.2)
+
 }
 
-a:active {
+nav a:active {
   text-decoration: none;
   color: whitesmoke;
 
+}
+
+
+.robert_länkar a {
+  color: slateblue;
+  text-decoration: none;
+  transition: color 0.5s;
+}
+
+.robert_länkar ul {
+  display: flex;
+}
+
+.robert_länkar ul li {
+  margin-left: 15px;
+  margin-right: 15px;
+  list-style: none;
+  border: 1px solid black;
+  padding: 10px 5px;
+  border-radius: 5px;
+  background-color: rgba(0, 144, 222,0.25)
+  color: whitesmoke;
+  transition: background-color 0.5s;
+}
+
+.robert_länkar ul li:hover {
+  background-color: rgba(0, 144, 222)
+}
+
+.robert_länkar a:hover {
+  color: white;
 }
